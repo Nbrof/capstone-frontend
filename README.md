@@ -81,7 +81,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Reponsive Design| H | 3hrs|--| 
 | Basic App Styling| M | 2hrs|--| 
 | Bug Fixes Firstround | H | 2.5hrs|--| 
-| Additional Styling M | 2hrs|----|   
+| Additional Styling | M | 2hrs|--|   
 | Reponsive Design| H | 3hrs|--| 
 | Bug Fixes Second round | H | 2.5hrs|--| 
 | Total | H | 51.5hrs| --| 
