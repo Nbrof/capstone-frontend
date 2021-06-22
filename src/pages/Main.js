@@ -10,7 +10,7 @@ const Main = (props) => {
  return (
      <div>
          <SpaceC />
-         <h1>Hello World 3!</h1>
+         <h1>A site for tracking objects in orbit.</h1>
         
      </div>
     
