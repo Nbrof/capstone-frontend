@@ -9,7 +9,7 @@ const Main = (props) => {
 
  return (
      <div>
-         {/* <SpaceC /> */}
+         <SpaceC />
          <h1>Hello World 3!</h1>
         
      </div>

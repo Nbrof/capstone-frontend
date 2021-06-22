@@ -11,10 +11,10 @@ console.log("Testing", props)
       props.handleSubmit(formData)
     }
     setFormData({
-        mission: "",
-        payload: "",
-        date: "",
-        location: "",
+        Mission: "",
+        Payload: "",
+        Date: "",
+        Location: "",
     })
   }
 

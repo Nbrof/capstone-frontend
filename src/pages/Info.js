@@ -25,7 +25,7 @@ const getData = () => {
     .then((resp) => resp.json())
     .then((data) => {
       console.log("getData", data)
-      setDatalist(data.body)
+      setDatalist(data)
     })
   }
 
@@ -44,7 +44,7 @@ const handleSubmit = (newData) => {
   }
 
   const handleDelete = (satData) => {
-    fetch(url + satData.Id, {
+    fetch(url + "/" + satData.id, {
       method: 'delete'
     })
     .then(()  => getData())
@@ -54,10 +54,10 @@ const handleSubmit = (newData) => {
     <div>
         {datalist.map((satdata) => (
         <div>
-            <h3>{satdata.Mission}</h3>
-            <h3>{satdata.Payload}</h3>
-            <h4>{satdata.Date}</h4>
-            <h4>{satdata.Location}</h4>
+            <h3>{satdata.mission}</h3>
+            <h3>{satdata.payload}</h3>
+            <h4>{satdata.date}</h4>
+            <h4>{satdata.location}</h4>
             <button onClick={() => handleDelete(satdata)}>Delete Section</button>
         </div>
     ))}
@@ -71,6 +71,7 @@ const loading = () => (
   </div>
 )
 
+// return <h1>Test</h1>
 return datalist.length > 0 ? loaded() : loading()
 }
 

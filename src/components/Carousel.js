@@ -10,18 +10,18 @@ import {
 const items = [
   {
     src: 'https://www.nasa.gov/sites/default/files/thumbnails/image/22862991917_048eaa439a_k.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    altText: '',
+    caption: 'Cape Canaveral, Florida'
   },
   {
     src: 'https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/uploads/2016/01/enterprise.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    altText: '',
+    caption: 'Vandenberg Air Force Base, California'
   },
   {
     src: 'https://ocbj.media.clients.ellingtoncms.com/img/photos/2020/02/28/0302_20191202RC.SpaceX008_t670.JPG?b3f6a5d7692ccc373d56e40cf708e3fa67d9af9d',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    altText: '',
+    caption: 'SpaceX HQ, Hawthorne, California'
   }
 ];
 
@@ -53,8 +53,8 @@ const SpaceC = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <img className = "ctest" src={item.src} alt={item.altText} />
+        <CarouselCaption captionHeader={item.caption} />
       </CarouselItem>
     );
   });

@@ -82,7 +82,17 @@ h1 {
  h4 {
    color: white;
  }
+ h3 {
+   color: white;
+ }
+ h2 {
+   color: white;
+ }
 
+ .ctest {
+  max-width:  40%;
+  max-height:  40%;
+ }
 
 
   #test {
