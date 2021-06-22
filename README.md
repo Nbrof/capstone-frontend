@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### MVP/PostMVP - 5min
 
-In the project directory, you can run:
+The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-### `npm start`
+#### MVP 
+- Research C# and .NET
+- Create a Front end using C#
+- Ensure the page is semi-functional at this point
+- Create a backend using .NET
+- Connect the backend to the front end to ensure the data is properly rendering.
+- Enable CRUD functionality with the backend
+- Basic styling 
+- Ensuring Responsiveness
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### PostMVP 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Advanced Styling and details.
+- Added details for filtering
+- Animation effects
+- Research into incorperating additional Libraries with C#
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## TimeFrames
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
+| Information Research | M | 3hrs|--| 
+| C# Research | H | 5+hrs|--| 
+| .Net Research| H | 5+hrs|--| 
+| Basic App Structuring| H | 3hrs|--| 
+| Basic Backend Structure| H | 3hrs|--|  
+| Router Structuring | L | 2hrs|--|  
+| Database basic Integration | H | 2hrs|--| 
+| CRUD Integration| H | 3hrs|--| 
+| Advanced Component Structuring| M | 2hrs|--|   
+| Reponsive Design| H | 3hrs|--| 
+| Basic App Styling| M | 2hrs|--| 
+| Bug Fixes Firstround | H | 2.5hrs|--| 
+| Additional Styling | M | 2hrs|--|   
+| Reponsive Design| H | 3hrs|--| 
+| Bug Fixes Second round | H | 2.5hrs|--| 
+| Total | H | 51.5hrs| --| 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Additional Libraries
+ Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Code Snippet
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### 
