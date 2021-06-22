@@ -10,7 +10,7 @@ const Subheader = (props) => {
             <Jumbotron fluid id="test">
                 <Container fluid>
                     <p className="lead">
-                        <h1>Launch</h1>
+                        <h1>Orbital Info.com</h1>
                     </p>
                 </Container>
             </Jumbotron>

@@ -14,7 +14,8 @@ const About = (props) => {
                 number however over the years has skyrocketed to the modern number of 3368 of active sattelites. All together there have been nearly eleven thousand total launches.</h4>
                 <br></br>
                 <h6>That is an impressivley large number, One that pales to comparission to the tens of thousands of new estimated launches with the development
-                    of orbital constellations and cost reduction thanks to manufacturing changes, size reduction, and launch improvements.
+                    of orbital constellations and cost reduction thanks to manufacturing changes, size reduction, and launch improvements. This website is dedicated to helping stay up to date with the amount of
+                    sattelites that are presently in orbit. A very special thanks to the Union of Concerned scientists for the data they have that helped form this website
                 </h6>
                 
                 </div>
